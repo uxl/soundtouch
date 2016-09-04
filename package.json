@@ -1,0 +1,36 @@
+{
+  "name": "soundtouch",
+  "version": "3.0.2",
+  "description": "Bose SoundTouch node js API",
+  "main": "discovery.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "CONNCTED",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "express": "^4.13.3",
+    "mdns": "^2.2.10",
+    "net": "^1.0.2",
+    "request": "^2.67.0",
+    "require-fu": "^1.0.0",
+    "websocket": "^1.0.22",
+    "xml2json": "^0.9.0"
+  },
+  "keywords": [
+    "soundtouch",
+    "bose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CONNCTED/SoundTouch-NodeJS.git"
+  },
+  "bugs": {
+    "url": "http://github.com/CONNCTED/SoundTouch-NodeJS/issues"
+  }
+}
